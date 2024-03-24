@@ -71,7 +71,8 @@ class SignUpScreen extends StatelessWidget {
           ),
           Align(
             alignment: Alignment.bottomCenter,
-            child: ListView(
+            child: 
+            ListView(
               children: [
                 Container(
                   margin: EdgeInsets.fromLTRB(20, 220, 20, 10),
@@ -170,19 +171,6 @@ class SignUpScreen extends StatelessWidget {
                     ),
                   ),
                 ),
-                // Align(
-                //   alignment: Alignment.centerRight,
-                //   child: Container(
-                //     margin: EdgeInsets.fromLTRB(0, 10, 20, 10),
-                //     child: Text(
-                //       "QUÊN MẬT KHẨU?",
-                //       style: TextStyle(
-                //         color: Color(0xFFFF4891),
-                //         fontSize: 12,
-                //       ),
-                //     ),
-                //   ),
-                // ),
                 Container(
                   margin: EdgeInsets.fromLTRB(20, 20, 20, 15),
                   width: MediaQuery.of(context).size.width * 0.5,

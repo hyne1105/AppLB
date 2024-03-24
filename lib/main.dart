@@ -3,8 +3,9 @@ import 'package:flutter/services.dart';
 import 'package:labeaute/screens/splash_screen.dart';
 import 'package:labeaute/screens/login_screen.dart';
 import 'package:labeaute/screens/onboarding_screen.dart';
-import 'package:labeaute/screens/login_screen.dart';
+import 'package:labeaute/screens/signup_screen.dart';
 import 'package:labeaute/screens/navigation_screen.dart';
+
 void main() {
   runApp(const MyApp());
 }
