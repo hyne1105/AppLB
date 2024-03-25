@@ -101,7 +101,7 @@ class ProductDetailScreen extends StatelessWidget {
                     ),
                     child: Center(
                       child: Icon(
-                        Icons.favorite,
+                        Icons.shopping_cart,
                         color: Color(0xFFC8273E),
                       ),
                     ),
