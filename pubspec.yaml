@@ -42,6 +42,8 @@ dependencies:
   flutter_dotenv: ^5.1.0
   http: ^1.2.0
   shared_preferences: ^2.2.2
+  fan_carousel_image_slider: ^0.1.2
+  flutter_rating_bar: ^4.0.1
 
 dev_dependencies:
   flutter_test:

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:labeaute/screens/product_detail_screen.dart';
 import 'package:labeaute/screens/splash_screen.dart';
 import 'package:labeaute/screens/login_screen.dart';
 import 'package:labeaute/screens/onboarding_screen.dart';
@@ -24,7 +25,7 @@ class MyApp extends StatelessWidget {
         primaryColor: Color(0xFF820233),
       ),
 
-      home: NavigationScreen(),
+      home: ProductDetailScreen(),
     );
   }
 }
