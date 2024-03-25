@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:labeaute/screens/navigation_screen.dart';
 import 'login_screen.dart';
 
 class SignUpScreen extends StatelessWidget {
@@ -71,8 +72,7 @@ class SignUpScreen extends StatelessWidget {
           ),
           Align(
             alignment: Alignment.bottomCenter,
-            child: 
-            ListView(
+            child: ListView(
               children: [
                 Container(
                   margin: EdgeInsets.fromLTRB(20, 220, 20, 10),
@@ -187,7 +187,14 @@ class SignUpScreen extends StatelessWidget {
                     borderRadius: BorderRadius.circular(20),
                     color: Colors.transparent,
                     child: InkWell(
-                      onTap: () {},
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => NavigationScreen(),
+                          ),
+                        );
+                      },
                       borderRadius: BorderRadius.circular(20),
                       splashColor: Colors.amber,
                       child: Center(

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:labeaute/screens/navigation_screen.dart';
 import 'signup_screen.dart';
 
 class LoginScreen extends StatelessWidget {
@@ -149,7 +150,14 @@ class LoginScreen extends StatelessWidget {
                     borderRadius: BorderRadius.circular(20),
                     color: Colors.transparent,
                     child: InkWell(
-                      onTap: () {},
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => NavigationScreen(),
+                          ),
+                        );
+                      },
                       borderRadius: BorderRadius.circular(20),
                       splashColor: Colors.amber,
                       child: Center(

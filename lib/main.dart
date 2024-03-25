@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
         primaryColor: Color(0xFF820233),
       ),
 
-      home: ProductDetailScreen(),
+      home: NavigationScreen(),
     );
   }
 }
